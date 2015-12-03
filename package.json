@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      "passport-mapmakers@^0.0.3",
+      "D:\\NodeBB-NodeBB-903bdbf\\node_modules\\nodebb-plugin-sso-mapmakers"
+    ]
+  ],
+  "_from": "passport-mapmakers@>=0.0.3 <0.0.4",
+  "_id": "passport-mapmakers@0.0.3",
+  "_inCache": true,
+  "_location": "/passport-mapmakers",
+  "_npmUser": {
+    "email": "franzzua@mapmakers.ru",
+    "name": "franzzua"
+  },
+  "_npmVersion": "1.4.28",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "passport-mapmakers",
+    "raw": "passport-mapmakers@^0.0.3",
+    "rawSpec": "^0.0.3",
+    "scope": null,
+    "spec": ">=0.0.3 <0.0.4",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/nodebb-plugin-sso-mapmakers"
+  ],
+  "_resolved": "https://registry.npmjs.org/passport-mapmakers/-/passport-mapmakers-0.0.3.tgz",
+  "_shasum": "66735b623f8e2aaa4351f8ed7613e405486fbae8",
+  "_shrinkwrap": null,
+  "_spec": "passport-mapmakers@^0.0.3",
+  "_where": "D:\\NodeBB-NodeBB-903bdbf\\node_modules\\nodebb-plugin-sso-mapmakers",
+  "author": {
+    "email": "franzzua@mapmakers.ru",
+    "name": "Sergey Sergeev",
+    "url": "http://franzzua.ru/"
+  },
+  "bugs": {
+    "url": "http://github.com/franzzua/passport-mapmakers/issues"
+  },
+  "dependencies": {
+    "passport-oauth": "1.0.x",
+    "pkginfo": "0.3.x"
+  },
+  "description": "mapmakers authentication strategy for Passport.",
+  "devDependencies": {
+    "vows": "~0.7.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "66735b623f8e2aaa4351f8ed7613e405486fbae8",
+    "tarball": "http://registry.npmjs.org/passport-mapmakers/-/passport-mapmakers-0.0.3.tgz"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "gitHead": "c5fe197176c7d039e77f1716379c151d64c5d5c8",
+  "homepage": "https://github.com/franzzua/passport-mapmakers",
+  "installable": true,
+  "keywords": [
+    "auth",
+    "authentication",
+    "authn",
+    "identity",
+    "passport",
+    "mapmakers"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/passport-mapmakers",
+  "maintainers": [
+    {
+      "name": "franzzua",
+      "email": "franzzua@mapmakers.ru"
+    }
+  ],
+  "name": "passport-mapmakers",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/franzzua/passport-mapmakers.git"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "version": "0.0.3"
+}
